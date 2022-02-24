@@ -1,0 +1,15 @@
+Guide roadmap:
+- Setting up a Solidity project
+- Compiling Solidity source code
+- Adding more contracts
+- Using OpenZeppelin contracts
+
+"artifacts" directory should be added to .gitignore
+
+$ npx hardhat run --network localhost scripts/deploy.js
+Deploying Contract...
+Contract deployed to: $<ADDRESS>$
+
+$ npx hardhat console --network localhost
+> const Contract = await ethers.getContractFactory("Contract");
+> const contract = await contract.attach("$<ADDRESS>$");
