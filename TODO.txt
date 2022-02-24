@@ -1,0 +1,7 @@
+Guide roadmap:
+- Setting up a Solidity project
+- Compiling Solidity source code
+- Adding more contracts
+- Using OpenZeppelin contracts
+
+"artifacts" directory should be added to .gitignore
