@@ -145,6 +145,150 @@
       "artifacts": [
         "Context"
       ]
+    },
+    "/home/andrew/edu/sol/openzeppelin/contracts/CoinFlip/CoinFlip.sol": {
+      "lastModificationDate": 1646163687416,
+      "contentHash": "a1f9a7d16f7fc8f80ce4f7c93496dc53",
+      "sourceName": "contracts/CoinFlip/CoinFlip.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CoinFlip"
+      ]
+    },
+    "/home/andrew/edu/sol/openzeppelin/contracts/CoinFlip/CoinFlipHack.sol": {
+      "lastModificationDate": 1646163702493,
+      "contentHash": "5fc014bf70f82061d5ba26ed0a0b4559",
+      "sourceName": "contracts/CoinFlip/CoinFlipHack.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./CoinFlip.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CoinFlipHack"
+      ]
+    },
+    "/home/andrew/edu/sol/openzeppelin/contracts/Telephone/Telephone.sol": {
+      "lastModificationDate": 1646163937075,
+      "contentHash": "76e3a4319c05477fd11e17040687fccb",
+      "sourceName": "contracts/Telephone/Telephone.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Telephone"
+      ]
+    },
+    "/home/andrew/edu/sol/openzeppelin/contracts/Telephone/TelephoneHack.sol": {
+      "lastModificationDate": 1646163946207,
+      "contentHash": "f05bc0d30e61605e46e485c5e84366da",
+      "sourceName": "contracts/Telephone/TelephoneHack.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Telephone.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TelephoneHack"
+      ]
     }
   }
 }
